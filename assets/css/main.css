@@ -2361,14 +2361,14 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 8px;
+		border-radius: 30%;
 		border: 0;
 		display: inline-block;
 		position: relative;
 	}
 
 		.image img {
-			border-radius: 8px;
+			border-radius: 0;
 			display: block;
 		}
 
@@ -2689,9 +2689,6 @@ input, select, textarea {
 				letter-spacing: 0;
 			}
 
-				header.major p br {
-					display: none;
-				}
 
 		footer.major {
 			margin-top: 0;
@@ -2999,13 +2996,13 @@ input, select, textarea {
 			display: inline-block;
 			margin-left: 4em;
 			padding: 0.65em;
-			border-radius: 100%;
+			border-radius: 0%;
 			border: solid 1px;
 		}
 
 			.spotlight .image img {
 				display: block;
-				border-radius: 100%;
+				border-radius: 0%;
 				width: 16em;
 			}
 
@@ -3157,9 +3154,7 @@ input, select, textarea {
 					letter-spacing: 0;
 				}
 
-					#header p br {
-						display: none;
-					}
+
 
 				#header.alt {
 					padding: 4em 2em 1em 2em ;
