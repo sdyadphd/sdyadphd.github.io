@@ -178,7 +178,7 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 0.1em 0;
 	}
 
 		p.content {
@@ -196,7 +196,7 @@ input, select, textarea {
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 300;
 		line-height: 1.5;
-		margin: 0 0 0.7em 0;
+		margin: 0 0 0 0;
 		letter-spacing: -0.025em;
 	}
 
@@ -2974,7 +2974,7 @@ input, select, textarea {
 		-webkit-align-items: center;
 		-ms-align-items: center;
 		align-items: center;
-		margin: 0 0 2em 0;
+		margin: 0 0 0.1em 0;
 	}
 
 		.spotlight .content {
@@ -3043,7 +3043,7 @@ input, select, textarea {
 					-ms-flex: 0 1 auto;
 					flex: 0 1 auto;
 					margin-left: 0;
-					margin-bottom: 2em;
+					margin-bottom: 0.1em;
 				}
 
 		}
@@ -3212,7 +3212,7 @@ input, select, textarea {
 		color: #636363;
 		position: absolute;
 		width: 64em;
-		max-width: calc(100% - 4em);
+		max-width: calc(100%);
 		padding: 1em;
 		background-color: #f7f7f7;
 		border-top-left-radius: 0.25em;
